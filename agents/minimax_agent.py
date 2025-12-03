@@ -99,7 +99,3 @@ class MinimaxAgent:
                 if beta <= alpha:
                     break  # Alpha cut-off
             return min_score
-           
-
-
-    
