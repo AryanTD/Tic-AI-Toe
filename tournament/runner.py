@@ -140,11 +140,10 @@ class Tournament:
     
     def print_standings(self):
         """Print final standings table."""
-        # Sort by points (descending)
+        # Sort by losses (ascending), then by wins (descending) as tiebreaker
         sorted_standings = sorted(
             self.standings.items(),
-            key=lambda x: x[1]['points'],
-            reverse=True
+            key=lambda x: (x[1]['losses'], -x[1]['wins'])
         )
         
         print("\n" + "="*80)

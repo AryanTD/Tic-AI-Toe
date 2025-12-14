@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 def train_qlearning(num_episodes=50000, save_filename="q_table.pkl"):
     """
     Train Q-Learning agent by playing against Random opponent.
-    This is clearer and avoids self-play complications.
     """
     print("=" * 50)
     print("TRAINING Q-LEARNING AGENT VS RANDOM")
