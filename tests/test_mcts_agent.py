@@ -1,4 +1,4 @@
-from board import TicTacToe
+from game.board import TicTacToe
 from agents.mcts_agent import MCTSAgent
 from agents.random_agent import RandomAgent
 from agents.heuristic_agent import HeuristicAgent

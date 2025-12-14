@@ -1,4 +1,4 @@
-from board import TicTacToe
+from game.board import TicTacToe
 
 game = TicTacToe()
 print("Starting game: ")

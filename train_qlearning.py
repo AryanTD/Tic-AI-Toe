@@ -1,4 +1,4 @@
-from board import TicTacToe
+from game.board import TicTacToe
 from agents.qlearning_agent import QLearningAgent
 from agents.random_agent import RandomAgent
 import matplotlib.pyplot as plt

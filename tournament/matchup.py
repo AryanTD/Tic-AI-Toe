@@ -1,4 +1,4 @@
-from board import TicTacToe
+from game.board import TicTacToe
 
 class Matchup:
     """Handles a series of games between two agents."""

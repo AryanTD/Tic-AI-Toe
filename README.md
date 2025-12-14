@@ -148,6 +148,7 @@ Tic-AI-Toe/
 ├── game/            # Board and game logic
 ├── tournament/      # Tournament orchestration
 ├── results/         # Tournament data and visualizations
+├── tests/           # Test files
 └── presentation/    # Project slides
 ```
 
